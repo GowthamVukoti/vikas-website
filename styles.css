@@ -23,18 +23,7 @@ height: 100%; /* Makes the carousel item take up the full height of the parent c
     height: 100%;
     object-fit: cover; /* Cover the carousel area */
   }
-  @media (max-width: 767px) {
-    .carousel-inner {
-      padding-top: 125%; /* 4:5 aspect ratio for mobile */
-    }
-    .carousel-indicators li {
-      color: #c2c2c2; /* Color for indicators */
-    }
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-      color: #cbcbcb; /* Color for control icons */
-    }
-  }
+
   @media (min-width: 768px) {
     .carousel-inner {
       padding-top: 100%; /* 1:1 aspect ratio for tablets and larger screens */
@@ -47,12 +36,7 @@ height: 100%; /* Makes the carousel item take up the full height of the parent c
     margin-top: 20px;
   }
 
-  @media(max-width:433px){
-    .ft-sz{
-      font-weight: 400 !important;
-      font-size: small;
-    }
-  }
+
 
 /* Button styles with minimal margins for a tight fit */
 .btn-sz {
