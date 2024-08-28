@@ -43,7 +43,7 @@ const numImages = images.length;
 
 // Create a segment for each image
 for (let i = 0; i < numImages; i++) {
-  const segment = document.createElement('div');
+  const segment = document.createElement('span');
   segment.classList.add('bar-segment');
   if (i === 0) segment.classList.add('active'); // Set the first segment as active
   barContainer.appendChild(segment);
